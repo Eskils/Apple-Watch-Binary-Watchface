@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.15" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.9"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.9"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller hidesWhenLoading="NO" fullBounds="YES" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="BinarI_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" id="i7H-vl-xa9">
+                            <items>
+                                <label width="1" height="20" alignment="left" text="1 1 1 1 1 1" textAlignment="right" id="0HN-0r-wiY">
+                                    <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                                </label>
+                            </items>
+                        </group>
+                        <separator alignment="left" alpha="0.0" id="MFP-f4-MLQ"/>
+                        <group width="1" height="37" alignment="left" id="aNw-pi-tm1">
+                            <items>
+                                <imageView width="29" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="ELq-Nq-Ba4"/>
+                                <imageView width="29" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="Phs-7M-PFZ"/>
+                                <imageView width="29" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="AhU-cJ-f5j"/>
+                                <imageView width="29" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="HiA-Ts-eIJ"/>
+                                <imageView width="29" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="TsY-hJ-g7Y"/>
+                            </items>
+                        </group>
+                        <group width="1" height="19" alignment="left" id="ssA-Ht-p9n">
+                            <items>
+                                <label width="29" alignment="left" text="16" textAlignment="center" id="pu3-mn-cFR">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="18"/>
+                                </label>
+                                <label width="29" alignment="left" text="8" textAlignment="center" id="QSl-cY-1YM">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="18"/>
+                                </label>
+                                <label width="29" alignment="left" text="4" textAlignment="center" id="anV-UI-ny3">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="18"/>
+                                </label>
+                                <label width="29" alignment="left" text="2" textAlignment="center" id="Lsj-hc-Bgn">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="18"/>
+                                </label>
+                                <label width="29" alignment="left" text="1" textAlignment="center" id="zsX-ED-VId">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="18"/>
+                                </label>
+                            </items>
+                        </group>
+                        <separator alignment="left" alpha="0.0" id="hn3-eK-ODa"/>
+                        <group width="1" height="24" alignment="left" id="F8O-sd-xr1">
+                            <items>
+                                <imageView width="24" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="Rcs-pu-ICT"/>
+                                <imageView width="24" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="vtv-7W-i0G"/>
+                                <imageView width="24" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="Xvw-zU-qlz"/>
+                                <imageView width="24" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="BGD-Dq-YXY"/>
+                                <imageView width="24" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="LKO-dx-PZk"/>
+                                <imageView width="24" height="1" alignment="left" image="BinerOn" contentMode="scaleAspectFit" id="Q1s-Yc-BoE"/>
+                            </items>
+                        </group>
+                        <group width="1" height="18" alignment="left" id="aPd-RO-Acf">
+                            <items>
+                                <label width="24" alignment="left" text="32" textAlignment="center" id="n9G-Ua-PzI">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="17"/>
+                                </label>
+                                <label width="24" alignment="left" text="16" textAlignment="center" id="ZtN-9V-1D0">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="17"/>
+                                </label>
+                                <label width="24" alignment="left" text="8" textAlignment="center" id="Uke-dA-doV">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="17"/>
+                                </label>
+                                <label width="24" alignment="left" text="4" textAlignment="center" id="Dug-cS-os6">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="17"/>
+                                </label>
+                                <label width="24" alignment="left" text="2" textAlignment="center" id="DmS-8F-oEO">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="17"/>
+                                </label>
+                                <label width="24" alignment="left" text="1" textAlignment="center" id="hkU-dF-gIg">
+                                    <fontDescription key="font" type="system" weight="ultraLight" pointSize="17"/>
+                                </label>
+                            </items>
+                        </group>
+                        <separator alignment="left" alpha="0.0" id="nxO-lP-Fxd"/>
+                        <dateLabel alignment="left" hidden="YES" textAlignment="left" format="EEEE d. MMMM" id="4Bp-dZ-kzg">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </dateLabel>
+                        <label width="1" alignment="left" text="Label" minimumScaleFactor="0.69999999999999996" id="F1a-UL-BLj">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                    </items>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <variation key="device=watch38mm" fullBounds="YES" fullScreen="YES"/>
+                    <variation key="device=watch40mm" fullBounds="YES" fullScreen="YES"/>
+                    <variation key="device=watch42mm" fullBounds="YES" fullScreen="NO"/>
+                    <variation key="device=watch44mm" fullBounds="YES" fullScreen="YES"/>
+                    <connections>
+                        <outlet property="DatoLabel" destination="4Bp-dZ-kzg" id="2qB-Uw-k0I"/>
+                        <outlet property="Minutt16Bilde" destination="vtv-7W-i0G" id="5QW-jy-jbl"/>
+                        <outlet property="Minutt1Bilde" destination="Q1s-Yc-BoE" id="PXg-3K-57s"/>
+                        <outlet property="Minutt2Bilde" destination="LKO-dx-PZk" id="0IE-gz-pVD"/>
+                        <outlet property="Minutt32Bilde" destination="Rcs-pu-ICT" id="Ev4-xs-TPM"/>
+                        <outlet property="Minutt4Bilde" destination="BGD-Dq-YXY" id="TEi-9P-OBT"/>
+                        <outlet property="Minutt8Bilde" destination="Xvw-zU-qlz" id="Xcs-iy-f4C"/>
+                        <outlet property="SetbarDatoLabel" destination="F1a-UL-BLj" id="O9o-jC-OXH"/>
+                        <outlet property="Time16Bilde" destination="ELq-Nq-Ba4" id="70z-mH-fCb"/>
+                        <outlet property="Time1Bilde" destination="TsY-hJ-g7Y" id="OiV-Ws-vD3"/>
+                        <outlet property="Time2Bilde" destination="HiA-Ts-eIJ" id="tG5-cy-zXK"/>
+                        <outlet property="Time4Bilde" destination="AhU-cJ-f5j" id="oGo-S4-UNs"/>
+                        <outlet property="Time8Bilde" destination="Phs-7M-PFZ" id="Dll-k3-yL3"/>
+                        <outlet property="VerLabel" destination="0HN-0r-wiY" id="7Lo-85-ilW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="14.820512820512821" y="36.179487179487182"/>
+        </scene>
+    </scenes>
+</document>
